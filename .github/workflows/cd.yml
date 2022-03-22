@@ -5,7 +5,7 @@ on:
     branches:
       - main
 env:
-  HEROKU_TOKEN: ${{ secrets.TOKEN_HEROKU }}
+  HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
   IMAGE_NAME: registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/web
   REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
 
